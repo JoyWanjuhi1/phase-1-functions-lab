@@ -36,10 +36,10 @@ function distanceTravelledInFeet(start, destination) {
 
         }
             else if (distanceTravelledInFeet(start, destination)>400 && distanceTravelledInFeet(start, destination)<2000){
-                return (distanceTravelledInFeet(start, destination)- 400)*0.02+2.56
+                return (distanceTravelledInFeet(start, destination)- 400)*0.02
             }
             else if (distanceTravelledInFeet(start, destination)>2000 && distanceTravelledInFeet(start, destination)<=2500){
-                return 25+25
+                return 25
             }
             else if (distanceTravelledInFeet(start, destination)>2500){
                  return 'cannot travel that far'
